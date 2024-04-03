@@ -1,5 +1,7 @@
 # RSpec Hash Diff
 
+This is a fork from [rpsec-hash_diff](https://github.com/squidarth/rspec-hash_diff) to update to modern versions of ruby and rspec and add custom functionality I desired.
+
 RSpec Hash Diff is a library that makes Hash comparisons in RSpec much easier to read.
 
 For hashes that are deeply nested, it can be hard to visually parse what the actual error was:
@@ -51,6 +53,3 @@ Simply call `require 'rspec-hash_diff' in a `spec_helper.rb` file (or any spec f
 ### Thanks
 
 This rspec library only exists because of @liufengyun's awesome [hashdiff](https://github.com/liufengyun/hashdiff) library. Thank you!
-
-
-
